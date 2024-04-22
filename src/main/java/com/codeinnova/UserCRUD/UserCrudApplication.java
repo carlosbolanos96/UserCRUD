@@ -17,11 +17,11 @@ public class UserCrudApplication {
 		System.out.println("Cantidad de usuarios: " + repository.count());
 
 		//Create
-		Users user = new Users(null,"Fernandez","Carlos","cralos@bol.com","123456AA",27,3149547);
+		Users user = new Users(null,"Fernandez","Carlos","cralos@bol.com","123456AA",27,3149547L);
 		repository.save(user);
 		System.out.println("Cantidad de usuarios: " + repository.count());
 
-		Users user1 = new Users(null,"Benachi","Marcela","MArcela@bol.com","12345BBB",24,3249547);
+		Users user1 = new Users(null,"Benachi","Marcela","MArcela@bol.com","12345BBB",24,3249547L);
 		repository.save(user1);
 		System.out.println("Cantidad de usuarios: " + repository.count());
 

@@ -16,13 +16,13 @@ public class Users {
     private String Email;
     private String Password;
     private Integer Age;
-    private Integer Phone;
+    private Long Phone;
 
     // constructor
     public Users() {
     }
 
-    public Users(Integer id, String lastName, String name, String email, String password, Integer age, Integer phone) {
+    public Users(Integer id, String lastName, String name, String email, String password, Integer age, Long phone) {
         this.id = id;
         LastName = lastName;
         Name = name;
@@ -81,11 +81,11 @@ public class Users {
         Age = age;
     }
 
-    public Integer getPhone() {
+    public Long getPhone() {
         return Phone;
     }
 
-    public void setPhone(Integer phone) {
+    public void setPhone(Long phone) {
         Phone = phone;
     }
 
